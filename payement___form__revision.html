@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>payment form</title>
+        
+    </head>
+
+    <body>
+        <form action="">
+          <h2 style="color: crimson;">  STATE BANK OF INDIA  </h2>
+        
+        <fieldset>
+        
+            NAME <input type="text" name="name" id="name" required placeholder="ENTRE NAME">
+            <br>
+            GENDER:MALE <input type="radio" name="gender" id="male"> FEMALE <input type="radio" name="gender" id="female">
+            <p>Contact <input type="number"></p>
+        
+   </fieldset>
+   <br>
+   <br>
+   <fieldset>
+        
+            <h2 style="color: green">CONTACT DETAILS</h2>    
+            <p>Address <textarea name="address" id="address"></textarea></p>
+            <p>Pincode <input type="number" id="pincode"></p>
+            <p>Email <input type="email" name="email" id="email">
+    
+    </fieldset>
+<br>
+    
+        <fieldset>
+        <h2>PAYMENT INFORMATION </h2>
+        <p>select Card
+            <select name="card_type" id="card_type">
+                <option value="">Select card</option>
+                <option value="visa">visa</option>
+                <option value="rupay">Rupay</option>
+                <option value="mastercard">Mastercard</option>
+            </select>
+        </p>
+        <p>Name of card holder <input type="text" name="cardholdername" id="cardholdername"> </p>
+        <p>Card number <input type="number" name="cardnumber" id="cardnumber"></p>
+        <p>Expiration date <input type ="date" name="expdate" id="expdate"></p>
+        <p>CVV <input type="password" name="cvv" id="cvv"></p>
+        <p><input type="submit" value="paynow " id="sumbit"></p>
+    </fieldset>
+</form>
+    </body>
+</html>
